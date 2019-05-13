@@ -1,0 +1,55 @@
+/* AUTOMATICALLY GENERATED ON Mon May 13 18:30:35 CEST 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "deleteByServerId,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "findByServerId,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "save,Local,domain.channel.Channel";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "delete,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "findByUser,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "detach,Local,domain.channel.Channel";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "find,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "save,Local,domain.accoun.Account";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "update,Local,domain.accoun.Account";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "update,Local,domain.accountServer.AccountServer";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "detach,Local,domain.post.Post";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "detach,Local,domain.accountServer.AccountServer";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "delete,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "delete,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "delete,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "find,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "update,Local,domain.channel.Channel";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "detach,Local,domain.server.Server";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "update,Local,domain.server.Server";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "save,Local,domain.accountServer.AccountServer";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "delete,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "findByUserServer,Local,long,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "detach,Local,domain.accoun.Account";
+  permission javax.security.jacc.EJBMethodPermission "EmailClient", "sendAsHtml,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "find,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "save,Local,domain.post.Post";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "getUser,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "getPostByChannelId,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountServerRepository", "find,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "findByName,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ChannelRepository", "deleteByServerId,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "ServerRepository", "save,Local,domain.server.Server";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "update,Local,domain.post.Post";
+  permission javax.security.jacc.EJBMethodPermission "PostRepository", "deleteBychannelId,Local,long";
+  permission javax.security.jacc.EJBMethodPermission "AccountRepository", "find,Local,long";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "EmailClient", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "AccountServerRepository", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ServerRepository", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "PostRepository", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ChannelRepository", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "AccountRepository", "**";
+};
+
